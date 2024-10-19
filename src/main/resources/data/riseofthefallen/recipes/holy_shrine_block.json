@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "catagory": "misc",
+  "pattern": [
+      "WWW",
+      "FGF",
+      "WDW"
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:feather"
+    },
+    "G": {
+      "item": "minecraft:golden_apple"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "W": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "riseofthefallen:holy_shrine"
+  }
+}
