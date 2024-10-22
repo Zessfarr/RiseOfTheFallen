@@ -55,6 +55,10 @@ public class RiseOfTheFallen
         {
             event.accept(ModItems.LOSTSOUL);
         }
+
+        if (event.getTabKey() == CreativeModeTabs.COMBAT) {
+            event.accept(ModItems.MAGICSTAFF_OF_HEALING);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

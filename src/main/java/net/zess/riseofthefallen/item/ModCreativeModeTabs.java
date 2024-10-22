@@ -18,7 +18,7 @@ public class ModCreativeModeTabs {
             .title(Component.translatable("creativetab.riseofthefallen_tab"))
             .displayItems((pParameters, pOutput) -> {
                 pOutput.accept(ModItems.LOSTSOUL.get());
-
+                pOutput.accept(ModItems.MAGICSTAFF_OF_HEALING.get());
                 pOutput.accept(ModBlocks.HOLY_SHRINE.get());
             })
             .build());
